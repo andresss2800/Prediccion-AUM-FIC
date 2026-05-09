@@ -1,0 +1,22 @@
+# Datos grandes (no versionar, documentar en README cómo obtenerlos)
+data/raw/*.zip
+data/processed/*.csv
+data/extended/*.csv
+
+# Modelos serializados pesados
+results/models/*.h5
+results/models/*.pkl
+
+# Entornos y credenciales
+.env
+*.env
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+
+# Jupyter
+.jupyter/
+
+# VSCode
+.vscode/
